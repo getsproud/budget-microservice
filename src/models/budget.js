@@ -30,6 +30,10 @@ const schema = new Schema({
       type: Schema.Types.ObjectId,
       index: true
     }]
+  },
+  currency: {
+    type: Schema.Types.String,
+    default: '€'
   }
 }, { timestamps: true })
 
